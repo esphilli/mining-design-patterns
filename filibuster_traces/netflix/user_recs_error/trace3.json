@@ -1,0 +1,1622 @@
+{
+    "data": [
+        {
+            "traceID": "e1486ac5a5880ab751776acf60807f26",
+            "spans": [
+                {
+                    "traceID": "e1486ac5a5880ab751776acf60807f26",
+                    "spanID": "76e2ebd43a1aaa2d",
+                    "flags": 1,
+                    "operationName": "/users/\u003cuser_id\u003e",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e1486ac5a5880ab751776acf60807f26",
+                            "spanID": "a5bdddf6bd0fd801"
+                        }
+                    ],
+                    "startTime": 1644949963926444,
+                    "duration": 1061,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "0.0.0.0"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 5003
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "0.0.0.0:5003"
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/users/garret_heaton"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "python-requests/2.26.0"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 53707
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.route",
+                            "type": "string",
+                            "value": "/users/\u003cuser_id\u003e"
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.flask"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e1486ac5a5880ab751776acf60807f26",
+                    "spanID": "d3954ab2ab417312",
+                    "flags": 1,
+                    "operationName": "/homepage/users/\u003cuser_id\u003e",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e1486ac5a5880ab751776acf60807f26",
+                            "spanID": "cedcb5c082042de0"
+                        }
+                    ],
+                    "startTime": 1644949963912049,
+                    "duration": 44778,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "0.0.0.0"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 5001
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "0.0.0.0:5001"
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/homepage/users/garret_heaton"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "python-requests/2.26.0"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 53705
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.route",
+                            "type": "string",
+                            "value": "/homepage/users/\u003cuser_id\u003e"
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.flask"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e1486ac5a5880ab751776acf60807f26",
+                    "spanID": "eab04c189b906ce7",
+                    "flags": 1,
+                    "operationName": "HTTP GET",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e1486ac5a5880ab751776acf60807f26",
+                            "spanID": "d3954ab2ab417312"
+                        }
+                    ],
+                    "startTime": 1644949963935376,
+                    "duration": 6487,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://0.0.0.0:5007/users/garret_heaton"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 404
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "NOT FOUND"
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "otel.status_code",
+                            "type": "string",
+                            "value": "ERROR"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.requests"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "error",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e1486ac5a5880ab751776acf60807f26",
+                    "spanID": "cefdaa83e10a9057",
+                    "flags": 1,
+                    "operationName": "HTTP GET",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e1486ac5a5880ab751776acf60807f26",
+                            "spanID": "d3954ab2ab417312"
+                        }
+                    ],
+                    "startTime": 1644949963928755,
+                    "duration": 6302,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://0.0.0.0:5006/users/garret_heaton"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.requests"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e1486ac5a5880ab751776acf60807f26",
+                    "spanID": "e6b7934035ce52c4",
+                    "flags": 1,
+                    "operationName": "HTTP GET",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e1486ac5a5880ab751776acf60807f26",
+                            "spanID": "d3954ab2ab417312"
+                        }
+                    ],
+                    "startTime": 1644949963942165,
+                    "duration": 5686,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://0.0.0.0:5008"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.requests"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e1486ac5a5880ab751776acf60807f26",
+                    "spanID": "acaf315020ebc4cc",
+                    "flags": 1,
+                    "operationName": "HTTP GET",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e1486ac5a5880ab751776acf60807f26",
+                            "spanID": "d3954ab2ab417312"
+                        }
+                    ],
+                    "startTime": 1644949963913122,
+                    "duration": 6536,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://0.0.0.0:5010/users/garret_heaton"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.requests"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e1486ac5a5880ab751776acf60807f26",
+                    "spanID": "f1d5590e13f50a0e",
+                    "flags": 1,
+                    "operationName": "HTTP GET",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e1486ac5a5880ab751776acf60807f26",
+                            "spanID": "d3954ab2ab417312"
+                        }
+                    ],
+                    "startTime": 1644949963948145,
+                    "duration": 7834,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://0.0.0.0:5009/users/garret_heaton"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.requests"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e1486ac5a5880ab751776acf60807f26",
+                    "spanID": "a5bdddf6bd0fd801",
+                    "flags": 1,
+                    "operationName": "HTTP GET",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e1486ac5a5880ab751776acf60807f26",
+                            "spanID": "d3954ab2ab417312"
+                        }
+                    ],
+                    "startTime": 1644949963920117,
+                    "duration": 8311,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://0.0.0.0:5003/users/garret_heaton"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.requests"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e1486ac5a5880ab751776acf60807f26",
+                    "spanID": "2a63ceef42df0ee8",
+                    "flags": 1,
+                    "operationName": "/",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e1486ac5a5880ab751776acf60807f26",
+                            "spanID": "e6b7934035ce52c4"
+                        }
+                    ],
+                    "startTime": 1644949963946197,
+                    "duration": 864,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "0.0.0.0"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 5008
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "0.0.0.0:5008"
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "python-requests/2.26.0"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 53710
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.route",
+                            "type": "string",
+                            "value": "/"
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.flask"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p3",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e1486ac5a5880ab751776acf60807f26",
+                    "spanID": "2b8b1791edee4e65",
+                    "flags": 1,
+                    "operationName": "/users/\u003cuser_id\u003e",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e1486ac5a5880ab751776acf60807f26",
+                            "spanID": "f1d5590e13f50a0e"
+                        }
+                    ],
+                    "startTime": 1644949963951693,
+                    "duration": 2984,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "0.0.0.0"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 5009
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "0.0.0.0:5009"
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/users/garret_heaton"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "python-requests/2.26.0"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 53711
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.route",
+                            "type": "string",
+                            "value": "/users/\u003cuser_id\u003e"
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.flask"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p4",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e1486ac5a5880ab751776acf60807f26",
+                    "spanID": "75514aabb2441d2c",
+                    "flags": 1,
+                    "operationName": "/users/\u003cuser_id\u003e",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e1486ac5a5880ab751776acf60807f26",
+                            "spanID": "cefdaa83e10a9057"
+                        }
+                    ],
+                    "startTime": 1644949963933252,
+                    "duration": 992,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "0.0.0.0"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 5006
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "0.0.0.0:5006"
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/users/garret_heaton"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "python-requests/2.26.0"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 53708
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.route",
+                            "type": "string",
+                            "value": "/users/\u003cuser_id\u003e"
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.flask"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p5",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e1486ac5a5880ab751776acf60807f26",
+                    "spanID": "fabd3660a9d3554b",
+                    "flags": 1,
+                    "operationName": "/users/\u003cuser_id\u003e",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e1486ac5a5880ab751776acf60807f26",
+                            "spanID": "acaf315020ebc4cc"
+                        }
+                    ],
+                    "startTime": 1644949963917579,
+                    "duration": 1161,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "0.0.0.0"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 5010
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "0.0.0.0:5010"
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/users/garret_heaton"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "python-requests/2.26.0"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 53706
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.route",
+                            "type": "string",
+                            "value": "/users/\u003cuser_id\u003e"
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.flask"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p6",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e1486ac5a5880ab751776acf60807f26",
+                    "spanID": "12c08cfbe8c631bd",
+                    "flags": 1,
+                    "operationName": "/netflix/homepage/users/\u003cuser_id\u003e",
+                    "references": [],
+                    "startTime": 1644949963905501,
+                    "duration": 53737,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "0.0.0.0"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 4999
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "0.0.0.0:4999"
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/netflix/homepage/users/garret_heaton"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 53695
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.route",
+                            "type": "string",
+                            "value": "/netflix/homepage/users/\u003cuser_id\u003e"
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.flask"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p7",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e1486ac5a5880ab751776acf60807f26",
+                    "spanID": "cedcb5c082042de0",
+                    "flags": 1,
+                    "operationName": "HTTP GET",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e1486ac5a5880ab751776acf60807f26",
+                            "spanID": "12c08cfbe8c631bd"
+                        }
+                    ],
+                    "startTime": 1644949963906863,
+                    "duration": 51639,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://0.0.0.0:5001/homepage/users/garret_heaton"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.requests"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p7",
+                    "warnings": null
+                },
+                {
+                    "traceID": "e1486ac5a5880ab751776acf60807f26",
+                    "spanID": "5ce05b51202052fd",
+                    "flags": 1,
+                    "operationName": "/users/\u003cuser_id\u003e",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "e1486ac5a5880ab751776acf60807f26",
+                            "spanID": "eab04c189b906ce7"
+                        }
+                    ],
+                    "startTime": 1644949963939220,
+                    "duration": 1319,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "0.0.0.0"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 5007
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "0.0.0.0:5007"
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/users/garret_heaton"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "python-requests/2.26.0"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 53709
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.route",
+                            "type": "string",
+                            "value": "/users/\u003cuser_id\u003e"
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "NOT FOUND"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 404
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "otel.status_code",
+                            "type": "string",
+                            "value": "ERROR"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.flask"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "error",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p8",
+                    "warnings": null
+                }
+            ],
+            "processes": {
+                "p1": {
+                    "serviceName": "bookmarks",
+                    "tags": []
+                },
+                "p2": {
+                    "serviceName": "api-gateway",
+                    "tags": []
+                },
+                "p3": {
+                    "serviceName": "global-recommendations",
+                    "tags": []
+                },
+                "p4": {
+                    "serviceName": "ratings",
+                    "tags": []
+                },
+                "p5": {
+                    "serviceName": "my-list",
+                    "tags": []
+                },
+                "p6": {
+                    "serviceName": "user-profile",
+                    "tags": []
+                },
+                "p7": {
+                    "serviceName": "mobile-client",
+                    "tags": []
+                },
+                "p8": {
+                    "serviceName": "user-recommendations",
+                    "tags": []
+                }
+            },
+            "warnings": null
+        }
+    ],
+    "total": 0,
+    "limit": 0,
+    "offset": 0,
+    "errors": null
+}

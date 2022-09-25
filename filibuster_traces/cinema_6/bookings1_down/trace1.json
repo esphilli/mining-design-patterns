@@ -1,0 +1,673 @@
+{
+    "data": [
+        {
+            "traceID": "7105e11504c1983afb136498af63e858",
+            "spans": [
+                {
+                    "traceID": "7105e11504c1983afb136498af63e858",
+                    "spanID": "ca197fc8ce8187b4",
+                    "flags": 1,
+                    "operationName": "HTTP GET",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "7105e11504c1983afb136498af63e858",
+                            "spanID": "2a8e494d335e39fd"
+                        }
+                    ],
+                    "startTime": 1644944219182043,
+                    "duration": 4893,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://0.0.0.0:5003/bookings/chris_rivers"
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "otel.status_code",
+                            "type": "string",
+                            "value": "ERROR"
+                        },
+                        {
+                            "key": "otel.status_description",
+                            "type": "string",
+                            "value": "ConnectionError: HTTPConnectionPool(host='0.0.0.0', port=5003): Max retries exceeded with url: /bookings/chris_rivers (Caused by NewConnectionError('\u003curllib3.connection.HTTPConnection object at 0x7fd8ac619e48\u003e: Failed to establish a new connection: [Errno 61] Connection refused'))"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.requests"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "error",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [
+                        {
+                            "timestamp": 1644944219186911,
+                            "fields": [
+                                {
+                                    "key": "exception.escaped",
+                                    "type": "string",
+                                    "value": "False"
+                                },
+                                {
+                                    "key": "exception.message",
+                                    "type": "string",
+                                    "value": "HTTPConnectionPool(host='0.0.0.0', port=5003): Max retries exceeded with url: /bookings/chris_rivers (Caused by NewConnectionError('\u003curllib3.connection.HTTPConnection object at 0x7fd8ac619e48\u003e: Failed to establish a new connection: [Errno 61] Connection refused'))"
+                                },
+                                {
+                                    "key": "exception.stacktrace",
+                                    "type": "string",
+                                    "value": "Traceback (most recent call last):\n  File \"/Users/kramasubramanian/filibuster-corpus/cinema-1/env/lib/python3.7/site-packages/urllib3/connection.py\", line 175, in _new_conn\n    (self._dns_host, self.port), self.timeout, **extra_kw\n  File \"/Users/kramasubramanian/filibuster-corpus/cinema-1/env/lib/python3.7/site-packages/urllib3/util/connection.py\", line 96, in create_connection\n    raise err\n  File \"/Users/kramasubramanian/filibuster-corpus/cinema-1/env/lib/python3.7/site-packages/urllib3/util/connection.py\", line 86, in create_connection\n    sock.connect(sa)\nConnectionRefusedError: [Errno 61] Connection refused\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/Users/kramasubramanian/filibuster-corpus/cinema-1/env/lib/python3.7/site-packages/urllib3/connectionpool.py\", line 706, in urlopen\n    chunked=chunked,\n  File \"/Users/kramasubramanian/filibuster-corpus/cinema-1/env/lib/python3.7/site-packages/urllib3/connectionpool.py\", line 394, in _make_request\n    conn.request(method, url, **httplib_request_kw)\n  File \"/Users/kramasubramanian/filibuster-corpus/cinema-1/env/lib/python3.7/site-packages/urllib3/connection.py\", line 239, in request\n    super(HTTPConnection, self).request(method, url, body=body, headers=headers)\n  File \"/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py\", line 1229, in request\n    self._send_request(method, url, body, headers, encode_chunked)\n  File \"/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py\", line 1275, in _send_request\n    self.endheaders(body, encode_chunked=encode_chunked)\n  File \"/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py\", line 1224, in endheaders\n    self._send_output(message_body, encode_chunked=encode_chunked)\n  File \"/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py\", line 1016, in _send_output\n    self.send(msg)\n  File \"/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py\", line 956, in send\n    self.connect()\n  File \"/Users/kramasubramanian/filibuster-corpus/cinema-1/env/lib/python3.7/site-packages/urllib3/connection.py\", line 205, in connect\n    conn = self._new_conn()\n  File \"/Users/kramasubramanian/filibuster-corpus/cinema-1/env/lib/python3.7/site-packages/urllib3/connection.py\", line 187, in _new_conn\n    self, \"Failed to establish a new connection: %s\" % e\nurllib3.exceptions.NewConnectionError: \u003curllib3.connection.HTTPConnection object at 0x7fd8ac619e48\u003e: Failed to establish a new connection: [Errno 61] Connection refused\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/Users/kramasubramanian/filibuster-corpus/cinema-1/env/lib/python3.7/site-packages/requests/adapters.py\", line 449, in send\n    timeout=timeout\n  File \"/Users/kramasubramanian/filibuster-corpus/cinema-1/env/lib/python3.7/site-packages/urllib3/connectionpool.py\", line 756, in urlopen\n    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]\n  File \"/Users/kramasubramanian/filibuster-corpus/cinema-1/env/lib/python3.7/site-packages/urllib3/util/retry.py\", line 574, in increment\n    raise MaxRetryError(_pool, url, error or ResponseError(cause))\nurllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='0.0.0.0', port=5003): Max retries exceeded with url: /bookings/chris_rivers (Caused by NewConnectionError('\u003curllib3.connection.HTTPConnection object at 0x7fd8ac619e48\u003e: Failed to establish a new connection: [Errno 61] Connection refused'))\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/Users/kramasubramanian/filibuster-corpus/cinema-1/env/lib/python3.7/site-packages/opentelemetry/sdk/trace/__init__.py\", line 960, in use_span\n    yield span\n  File \"/Users/kramasubramanian/filibuster-corpus/cinema-1/env/lib/python3.7/site-packages/opentelemetry/sdk/trace/__init__.py\", line 873, in start_as_current_span\n    yield span_context\n  File \"/Users/kramasubramanian/filibuster-corpus/cinema-1/env/lib/python3.7/site-packages/opentelemetry/instrumentation/requests/__init__.py\", line 169, in _instrumented_requests_call\n    raise exception.with_traceback(exception.__traceback__)\n  File \"/Users/kramasubramanian/filibuster-corpus/cinema-1/env/lib/python3.7/site-packages/opentelemetry/instrumentation/requests/__init__.py\", line 144, in _instrumented_requests_call\n    result = call_wrapped()  # *** PROCEED\n  File \"/Users/kramasubramanian/filibuster-corpus/cinema-1/env/lib/python3.7/site-packages/opentelemetry/instrumentation/requests/__init__.py\", line 85, in call_wrapped\n    return wrapped_request(self, method, url, *args, **kwargs)\n  File \"/Users/kramasubramanian/filibuster-corpus/cinema-1/env/lib/python3.7/site-packages/requests/sessions.py\", line 542, in request\n    resp = self.send(prep, **send_kwargs)\n  File \"/Users/kramasubramanian/filibuster-corpus/cinema-1/env/lib/python3.7/site-packages/opentelemetry/instrumentation/requests/__init__.py\", line 105, in instrumented_send\n    request.method, request.url, call_wrapped, get_or_create_headers\n  File \"/Users/kramasubramanian/filibuster-corpus/cinema-1/env/lib/python3.7/site-packages/opentelemetry/instrumentation/requests/__init__.py\", line 114, in _instrumented_requests_call\n    return call_wrapped()\n  File \"/Users/kramasubramanian/filibuster-corpus/cinema-1/env/lib/python3.7/site-packages/opentelemetry/instrumentation/requests/__init__.py\", line 102, in call_wrapped\n    return wrapped_send(self, request, **kwargs)\n  File \"/Users/kramasubramanian/filibuster-corpus/cinema-1/env/lib/python3.7/site-packages/requests/sessions.py\", line 655, in send\n    r = adapter.send(request, **kwargs)\n  File \"/Users/kramasubramanian/filibuster-corpus/cinema-1/env/lib/python3.7/site-packages/requests/adapters.py\", line 516, in send\n    raise ConnectionError(e, request=request)\nrequests.exceptions.ConnectionError: HTTPConnectionPool(host='0.0.0.0', port=5003): Max retries exceeded with url: /bookings/chris_rivers (Caused by NewConnectionError('\u003curllib3.connection.HTTPConnection object at 0x7fd8ac619e48\u003e: Failed to establish a new connection: [Errno 61] Connection refused'))\n"
+                                },
+                                {
+                                    "key": "exception.type",
+                                    "type": "string",
+                                    "value": "ConnectionError"
+                                },
+                                {
+                                    "key": "message",
+                                    "type": "string",
+                                    "value": "exception"
+                                }
+                            ]
+                        }
+                    ],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "7105e11504c1983afb136498af63e858",
+                    "spanID": "ca1116e5271002db",
+                    "flags": 1,
+                    "operationName": "HTTP GET",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "7105e11504c1983afb136498af63e858",
+                            "spanID": "2a8e494d335e39fd"
+                        }
+                    ],
+                    "startTime": 1644944219187156,
+                    "duration": 5322,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://0.0.0.0:5004/bookings/chris_rivers"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.requests"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "7105e11504c1983afb136498af63e858",
+                    "spanID": "d7c8ae837b9b8b83",
+                    "flags": 1,
+                    "operationName": "HTTP GET",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "7105e11504c1983afb136498af63e858",
+                            "spanID": "2a8e494d335e39fd"
+                        }
+                    ],
+                    "startTime": 1644944219192895,
+                    "duration": 6407,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://0.0.0.0:5001/movies/7daf7208-be4d-4944-a3ae-c1c2f516f3e6"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.requests"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "7105e11504c1983afb136498af63e858",
+                    "spanID": "2a8e494d335e39fd",
+                    "flags": 1,
+                    "operationName": "/users/\u003cusername\u003e/bookings",
+                    "references": [],
+                    "startTime": 1644944219181258,
+                    "duration": 18407,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "0.0.0.0"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 5000
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "0.0.0.0:5000"
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/users/chris_rivers/bookings"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 51489
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.route",
+                            "type": "string",
+                            "value": "/users/\u003cusername\u003e/bookings"
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.flask"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "7105e11504c1983afb136498af63e858",
+                    "spanID": "9036ec660648d9d9",
+                    "flags": 1,
+                    "operationName": "/movies/\u003cmovieid\u003e",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "7105e11504c1983afb136498af63e858",
+                            "spanID": "d7c8ae837b9b8b83"
+                        }
+                    ],
+                    "startTime": 1644944219197612,
+                    "duration": 806,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "0.0.0.0"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 5001
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "0.0.0.0:5001"
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/movies/7daf7208-be4d-4944-a3ae-c1c2f516f3e6"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "python-requests/2.26.0"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 51517
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.route",
+                            "type": "string",
+                            "value": "/movies/\u003cmovieid\u003e"
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.flask"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "7105e11504c1983afb136498af63e858",
+                    "spanID": "8f0a87f2f736240a",
+                    "flags": 1,
+                    "operationName": "/bookings/\u003cusername\u003e",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "7105e11504c1983afb136498af63e858",
+                            "spanID": "ca1116e5271002db"
+                        }
+                    ],
+                    "startTime": 1644944219190587,
+                    "duration": 791,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "0.0.0.0"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 5004
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "0.0.0.0:5004"
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/bookings/chris_rivers"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "python-requests/2.26.0"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 51516
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.route",
+                            "type": "string",
+                            "value": "/bookings/\u003cusername\u003e"
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.flask"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p3",
+                    "warnings": null
+                }
+            ],
+            "processes": {
+                "p1": {
+                    "serviceName": "users",
+                    "tags": []
+                },
+                "p2": {
+                    "serviceName": "movies",
+                    "tags": []
+                },
+                "p3": {
+                    "serviceName": "bookings-secondary",
+                    "tags": []
+                }
+            },
+            "warnings": null
+        }
+    ],
+    "total": 0,
+    "limit": 0,
+    "offset": 0,
+    "errors": null
+}

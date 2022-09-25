@@ -1,0 +1,1831 @@
+{
+    "data": [
+        {
+            "traceID": "f8316194cf963acdf293902cd45ac161",
+            "spans": [
+                {
+                    "traceID": "f8316194cf963acdf293902cd45ac161",
+                    "spanID": "9ad212fe3ed0b76b",
+                    "flags": 1,
+                    "operationName": "/users/\u003cuser_id\u003e",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f8316194cf963acdf293902cd45ac161",
+                            "spanID": "ebe7fec3b9f71ee3"
+                        }
+                    ],
+                    "startTime": 1644950277044804,
+                    "duration": 705,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "0.0.0.0"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 5007
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "0.0.0.0:5007"
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/users/chris_rivers"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "python-requests/2.26.0"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 53849
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.route",
+                            "type": "string",
+                            "value": "/users/\u003cuser_id\u003e"
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.flask"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f8316194cf963acdf293902cd45ac161",
+                    "spanID": "1b76f350c9a78477",
+                    "flags": 1,
+                    "operationName": "HTTP GET",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f8316194cf963acdf293902cd45ac161",
+                            "spanID": "b4e8020dc6aedc62"
+                        }
+                    ],
+                    "startTime": 1644950277005103,
+                    "duration": 7163,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://0.0.0.0:5010/users/chris_rivers"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.requests"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f8316194cf963acdf293902cd45ac161",
+                    "spanID": "839e777872905d93",
+                    "flags": 1,
+                    "operationName": "HTTP GET",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f8316194cf963acdf293902cd45ac161",
+                            "spanID": "b4e8020dc6aedc62"
+                        }
+                    ],
+                    "startTime": 1644950277034554,
+                    "duration": 6167,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://0.0.0.0:5006/users/chris_rivers"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.requests"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f8316194cf963acdf293902cd45ac161",
+                    "spanID": "95cf4168ee410521",
+                    "flags": 1,
+                    "operationName": "HTTP POST",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f8316194cf963acdf293902cd45ac161",
+                            "spanID": "b4e8020dc6aedc62"
+                        }
+                    ],
+                    "startTime": 1644950277020238,
+                    "duration": 6349,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "POST"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://0.0.0.0:5004"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.requests"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f8316194cf963acdf293902cd45ac161",
+                    "spanID": "068471150b88c188",
+                    "flags": 1,
+                    "operationName": "HTTP GET",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f8316194cf963acdf293902cd45ac161",
+                            "spanID": "b4e8020dc6aedc62"
+                        }
+                    ],
+                    "startTime": 1644950277046623,
+                    "duration": 6082,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://0.0.0.0:5009/users/chris_rivers"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.requests"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f8316194cf963acdf293902cd45ac161",
+                    "spanID": "2655f062d9e65240",
+                    "flags": 1,
+                    "operationName": "HTTP GET",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f8316194cf963acdf293902cd45ac161",
+                            "spanID": "b4e8020dc6aedc62"
+                        }
+                    ],
+                    "startTime": 1644950277026892,
+                    "duration": 7143,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://0.0.0.0:5012"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.requests"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f8316194cf963acdf293902cd45ac161",
+                    "spanID": "ebe7fec3b9f71ee3",
+                    "flags": 1,
+                    "operationName": "HTTP GET",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f8316194cf963acdf293902cd45ac161",
+                            "spanID": "b4e8020dc6aedc62"
+                        }
+                    ],
+                    "startTime": 1644950277041012,
+                    "duration": 5318,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://0.0.0.0:5007/users/chris_rivers"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.requests"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f8316194cf963acdf293902cd45ac161",
+                    "spanID": "b4e8020dc6aedc62",
+                    "flags": 1,
+                    "operationName": "/homepage/users/\u003cuser_id\u003e",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f8316194cf963acdf293902cd45ac161",
+                            "spanID": "8ad8452095484ca5"
+                        }
+                    ],
+                    "startTime": 1644950277004107,
+                    "duration": 49077,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "0.0.0.0"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 5001
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "0.0.0.0:5001"
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/homepage/users/chris_rivers"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "python-requests/2.26.0"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 53843
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.route",
+                            "type": "string",
+                            "value": "/homepage/users/\u003cuser_id\u003e"
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.flask"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f8316194cf963acdf293902cd45ac161",
+                    "spanID": "2ebae5a04641bff5",
+                    "flags": 1,
+                    "operationName": "HTTP GET",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f8316194cf963acdf293902cd45ac161",
+                            "spanID": "b4e8020dc6aedc62"
+                        }
+                    ],
+                    "startTime": 1644950277012779,
+                    "duration": 7133,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://0.0.0.0:5003/users/chris_rivers"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 404
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "NOT FOUND"
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "otel.status_code",
+                            "type": "string",
+                            "value": "ERROR"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.requests"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "error",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f8316194cf963acdf293902cd45ac161",
+                    "spanID": "10c30165c688bd39",
+                    "flags": 1,
+                    "operationName": "/users/\u003cuser_id\u003e",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f8316194cf963acdf293902cd45ac161",
+                            "spanID": "2ebae5a04641bff5"
+                        }
+                    ],
+                    "startTime": 1644950277017621,
+                    "duration": 1040,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "0.0.0.0"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 5003
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "0.0.0.0:5003"
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/users/chris_rivers"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "python-requests/2.26.0"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 53845
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.route",
+                            "type": "string",
+                            "value": "/users/\u003cuser_id\u003e"
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "NOT FOUND"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 404
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "otel.status_code",
+                            "type": "string",
+                            "value": "ERROR"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.flask"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "error",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p3",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f8316194cf963acdf293902cd45ac161",
+                    "spanID": "84fe2ef27b13ed78",
+                    "flags": 1,
+                    "operationName": "/",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f8316194cf963acdf293902cd45ac161",
+                            "spanID": "95cf4168ee410521"
+                        }
+                    ],
+                    "startTime": 1644950277023841,
+                    "duration": 1743,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "POST"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "0.0.0.0"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 5004
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "0.0.0.0:5004"
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "python-requests/2.26.0"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 53846
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.route",
+                            "type": "string",
+                            "value": "/"
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.flask"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p4",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f8316194cf963acdf293902cd45ac161",
+                    "spanID": "98e2d21121b0e23c",
+                    "flags": 1,
+                    "operationName": "/",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f8316194cf963acdf293902cd45ac161",
+                            "spanID": "2655f062d9e65240"
+                        }
+                    ],
+                    "startTime": 1644950277031247,
+                    "duration": 1214,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "0.0.0.0"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 5012
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "0.0.0.0:5012"
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "python-requests/2.26.0"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 53847
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.route",
+                            "type": "string",
+                            "value": "/"
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.flask"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p5",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f8316194cf963acdf293902cd45ac161",
+                    "spanID": "c658e413a9423dc1",
+                    "flags": 1,
+                    "operationName": "/users/\u003cuser_id\u003e",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f8316194cf963acdf293902cd45ac161",
+                            "spanID": "068471150b88c188"
+                        }
+                    ],
+                    "startTime": 1644950277050743,
+                    "duration": 885,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "0.0.0.0"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 5009
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "0.0.0.0:5009"
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/users/chris_rivers"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "python-requests/2.26.0"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 53850
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.route",
+                            "type": "string",
+                            "value": "/users/\u003cuser_id\u003e"
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.flask"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p6",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f8316194cf963acdf293902cd45ac161",
+                    "spanID": "0e0c3e8faed3ac2c",
+                    "flags": 1,
+                    "operationName": "/users/\u003cuser_id\u003e",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f8316194cf963acdf293902cd45ac161",
+                            "spanID": "839e777872905d93"
+                        }
+                    ],
+                    "startTime": 1644950277038982,
+                    "duration": 821,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "0.0.0.0"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 5006
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "0.0.0.0:5006"
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/users/chris_rivers"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "python-requests/2.26.0"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 53848
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.route",
+                            "type": "string",
+                            "value": "/users/\u003cuser_id\u003e"
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.flask"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p7",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f8316194cf963acdf293902cd45ac161",
+                    "spanID": "61fcc61357c6a15e",
+                    "flags": 1,
+                    "operationName": "/users/\u003cuser_id\u003e",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f8316194cf963acdf293902cd45ac161",
+                            "spanID": "1b76f350c9a78477"
+                        }
+                    ],
+                    "startTime": 1644950277009610,
+                    "duration": 1355,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "0.0.0.0"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 5010
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "0.0.0.0:5010"
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/users/chris_rivers"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "python-requests/2.26.0"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 53844
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.route",
+                            "type": "string",
+                            "value": "/users/\u003cuser_id\u003e"
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.flask"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p8",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f8316194cf963acdf293902cd45ac161",
+                    "spanID": "1393f126550b945b",
+                    "flags": 1,
+                    "operationName": "/netflix/homepage/users/\u003cuser_id\u003e",
+                    "references": [],
+                    "startTime": 1644950276999192,
+                    "duration": 55871,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "0.0.0.0"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 4999
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "0.0.0.0:4999"
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/netflix/homepage/users/chris_rivers"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 53831
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.route",
+                            "type": "string",
+                            "value": "/netflix/homepage/users/\u003cuser_id\u003e"
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.flask"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p9",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f8316194cf963acdf293902cd45ac161",
+                    "spanID": "8ad8452095484ca5",
+                    "flags": 1,
+                    "operationName": "HTTP GET",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f8316194cf963acdf293902cd45ac161",
+                            "spanID": "1393f126550b945b"
+                        }
+                    ],
+                    "startTime": 1644950277000068,
+                    "duration": 54243,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://0.0.0.0:5001/homepage/users/chris_rivers"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "http.status_text",
+                            "type": "string",
+                            "value": "OK"
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "python"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.0.0rc1"
+                        },
+                        {
+                            "key": "service.name",
+                            "type": "string",
+                            "value": "unknown_service"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "opentelemetry.instrumentation.requests"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "0.18b1"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p9",
+                    "warnings": null
+                }
+            ],
+            "processes": {
+                "p1": {
+                    "serviceName": "user-recommendations",
+                    "tags": []
+                },
+                "p2": {
+                    "serviceName": "api-gateway",
+                    "tags": []
+                },
+                "p3": {
+                    "serviceName": "bookmarks",
+                    "tags": []
+                },
+                "p4": {
+                    "serviceName": "telemetry",
+                    "tags": []
+                },
+                "p5": {
+                    "serviceName": "trending",
+                    "tags": []
+                },
+                "p6": {
+                    "serviceName": "ratings",
+                    "tags": []
+                },
+                "p7": {
+                    "serviceName": "my-list",
+                    "tags": []
+                },
+                "p8": {
+                    "serviceName": "user-profile",
+                    "tags": []
+                },
+                "p9": {
+                    "serviceName": "mobile-client",
+                    "tags": []
+                }
+            },
+            "warnings": null
+        }
+    ],
+    "total": 0,
+    "limit": 0,
+    "offset": 0,
+    "errors": null
+}

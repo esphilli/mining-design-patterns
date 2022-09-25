@@ -1,0 +1,321 @@
+{
+    "data": [
+        {
+            "traceID": "2852ac36e4c2a23d",
+            "spans": [
+                {
+                    "traceID": "2852ac36e4c2a23d",
+                    "spanID": "a730bf5825c1634c",
+                    "flags": 1,
+                    "operationName": "/api/user/login",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "2852ac36e4c2a23d",
+                            "spanID": "2852ac36e4c2a23d"
+                        }
+                    ],
+                    "startTime": 1599086361516989,
+                    "duration": 11168,
+                    "tags": [
+                        {
+                            "key": "component",
+                            "type": "string",
+                            "value": "nginx"
+                        },
+                        {
+                            "key": "nginx.worker_pid",
+                            "type": "string",
+                            "value": "22"
+                        },
+                        {
+                            "key": "peer.address",
+                            "type": "string",
+                            "value": "172.18.0.1:43874"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "POST"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://0.0.0.0:8080/api/user/login"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "0.0.0.0:8080"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 302
+                        },
+                        {
+                            "key": "http.status_line",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "2852ac36e4c2a23d",
+                    "spanID": "2852ac36e4c2a23d",
+                    "flags": 1,
+                    "operationName": "/api/user/login",
+                    "references": [],
+                    "startTime": 1599086361516000,
+                    "duration": 12141,
+                    "tags": [
+                        {
+                            "key": "sampler.type",
+                            "type": "string",
+                            "value": "const"
+                        },
+                        {
+                            "key": "sampler.param",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 302
+                        },
+                        {
+                            "key": "http.status_line",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "component",
+                            "type": "string",
+                            "value": "nginx"
+                        },
+                        {
+                            "key": "nginx.worker_pid",
+                            "type": "string",
+                            "value": "22"
+                        },
+                        {
+                            "key": "peer.address",
+                            "type": "string",
+                            "value": "172.18.0.1:43874"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "POST"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://0.0.0.0:8080/api/user/login"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "0.0.0.0:8080"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "2852ac36e4c2a23d",
+                    "spanID": "20eafd113e0d3a15",
+                    "flags": 1,
+                    "operationName": "MmcGetLogin",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "2852ac36e4c2a23d",
+                            "spanID": "3d58ab1a1d41c0fd"
+                        }
+                    ],
+                    "startTime": 1599086361524342,
+                    "duration": 1551,
+                    "tags": [
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "2852ac36e4c2a23d",
+                    "spanID": "a1997f53fa96651a",
+                    "flags": 1,
+                    "operationName": "MongoFindUser",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "2852ac36e4c2a23d",
+                            "spanID": "3d58ab1a1d41c0fd"
+                        }
+                    ],
+                    "startTime": 1599086361525999,
+                    "duration": 766,
+                    "tags": [
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "2852ac36e4c2a23d",
+                    "spanID": "23a7a3727225052c",
+                    "flags": 1,
+                    "operationName": "MmcSetLogin",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "2852ac36e4c2a23d",
+                            "spanID": "3d58ab1a1d41c0fd"
+                        }
+                    ],
+                    "startTime": 1599086361526910,
+                    "duration": 897,
+                    "tags": [
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "2852ac36e4c2a23d",
+                    "spanID": "3d58ab1a1d41c0fd",
+                    "flags": 1,
+                    "operationName": "Login",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "2852ac36e4c2a23d",
+                            "spanID": "a730bf5825c1634c"
+                        }
+                    ],
+                    "startTime": 1599086361524312,
+                    "duration": 3536,
+                    "tags": [
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": [
+                        "invalid parent span IDs=24b6a30b8ceb3a0c; skipping clock skew adjustment",
+                        "invalid parent span IDs=24b6a30b8ceb3a0c; skipping clock skew adjustment",
+                        "invalid parent span IDs=24b6a30b8ceb3a0c; skipping clock skew adjustment",
+                        "invalid parent span IDs=24b6a30b8ceb3a0c; skipping clock skew adjustment",
+                        "invalid parent span IDs=24b6a30b8ceb3a0c; skipping clock skew adjustment",
+                        "invalid parent span IDs=24b6a30b8ceb3a0c; skipping clock skew adjustment",
+                        "invalid parent span IDs=24b6a30b8ceb3a0c; skipping clock skew adjustment",
+                        "invalid parent span IDs=24b6a30b8ceb3a0c; skipping clock skew adjustment",
+                        "invalid parent span IDs=24b6a30b8ceb3a0c; skipping clock skew adjustment",
+                        "invalid parent span IDs=24b6a30b8ceb3a0c; skipping clock skew adjustment",
+                        "invalid parent span IDs=24b6a30b8ceb3a0c; skipping clock skew adjustment",
+                        "invalid parent span IDs=24b6a30b8ceb3a0c; skipping clock skew adjustment",
+                        "invalid parent span IDs=24b6a30b8ceb3a0c; skipping clock skew adjustment",
+                        "invalid parent span IDs=24b6a30b8ceb3a0c; skipping clock skew adjustment",
+                        "invalid parent span IDs=24b6a30b8ceb3a0c; skipping clock skew adjustment",
+                        "invalid parent span IDs=24b6a30b8ceb3a0c; skipping clock skew adjustment",
+                        "invalid parent span IDs=24b6a30b8ceb3a0c; skipping clock skew adjustment",
+                        "invalid parent span IDs=24b6a30b8ceb3a0c; skipping clock skew adjustment",
+                        "invalid parent span IDs=24b6a30b8ceb3a0c; skipping clock skew adjustment",
+                        "invalid parent span IDs=24b6a30b8ceb3a0c; skipping clock skew adjustment",
+                        "invalid parent span IDs=24b6a30b8ceb3a0c; skipping clock skew adjustment",
+                        "invalid parent span IDs=24b6a30b8ceb3a0c; skipping clock skew adjustment",
+                        "invalid parent span IDs=24b6a30b8ceb3a0c; skipping clock skew adjustment",
+                        "invalid parent span IDs=24b6a30b8ceb3a0c; skipping clock skew adjustment",
+                        "invalid parent span IDs=24b6a30b8ceb3a0c; skipping clock skew adjustment",
+                        "invalid parent span IDs=24b6a30b8ceb3a0c; skipping clock skew adjustment",
+                        "invalid parent span IDs=24b6a30b8ceb3a0c; skipping clock skew adjustment",
+                        "invalid parent span IDs=24b6a30b8ceb3a0c; skipping clock skew adjustment",
+                        "invalid parent span IDs=24b6a30b8ceb3a0c; skipping clock skew adjustment",
+                        "invalid parent span IDs=24b6a30b8ceb3a0c; skipping clock skew adjustment"
+                    ]
+                }
+            ],
+            "processes": {
+                "p1": {
+                    "serviceName": "nginx-web-server",
+                    "tags": [
+                        {
+                            "key": "hostname",
+                            "type": "string",
+                            "value": "nginx-thrift"
+                        },
+                        {
+                            "key": "ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "jaeger.version",
+                            "type": "string",
+                            "value": "C++-0.4.2"
+                        }
+                    ]
+                },
+                "p2": {
+                    "serviceName": "user-service",
+                    "tags": [
+                        {
+                            "key": "hostname",
+                            "type": "string",
+                            "value": "user-service"
+                        },
+                        {
+                            "key": "ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "jaeger.version",
+                            "type": "string",
+                            "value": "C++-0.4.2"
+                        }
+                    ]
+                }
+            },
+            "warnings": null
+        }
+    ],
+    "total": 0,
+    "limit": 0,
+    "offset": 0,
+    "errors": null
+}

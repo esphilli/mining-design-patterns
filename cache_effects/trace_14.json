@@ -1,0 +1,431 @@
+{
+    "data": [
+        {
+            "traceID": "c26eed9fce02720d",
+            "spans": [
+                {
+                    "traceID": "c26eed9fce02720d",
+                    "spanID": "763a328a85a31d1c",
+                    "flags": 1,
+                    "operationName": "RedisFind",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "c26eed9fce02720d",
+                            "spanID": "c0582a9ef1a92428"
+                        }
+                    ],
+                    "startTime": 1599086886271361,
+                    "duration": 152,
+                    "tags": [
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "c26eed9fce02720d",
+                    "spanID": "27cc768c9a636c33",
+                    "flags": 1,
+                    "operationName": "MongoFindUserTimeline",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "c26eed9fce02720d",
+                            "spanID": "c0582a9ef1a92428"
+                        }
+                    ],
+                    "startTime": 1599086886271889,
+                    "duration": 39,
+                    "tags": [
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "c26eed9fce02720d",
+                    "spanID": "c5e82851d79c0ba2",
+                    "flags": 1,
+                    "operationName": "RedisUpdate",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "c26eed9fce02720d",
+                            "spanID": "c0582a9ef1a92428"
+                        }
+                    ],
+                    "startTime": 1599086886272925,
+                    "duration": 215,
+                    "tags": [
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "c26eed9fce02720d",
+                    "spanID": "c0582a9ef1a92428",
+                    "flags": 1,
+                    "operationName": "ReadUserTimeline",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "c26eed9fce02720d",
+                            "spanID": "c5c16b5f798ba02e"
+                        }
+                    ],
+                    "startTime": 1599086886271312,
+                    "duration": 6389,
+                    "tags": [
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": [
+                        "invalid parent span IDs=05f0c8b4bf750107; skipping clock skew adjustment",
+                        "invalid parent span IDs=05f0c8b4bf750107; skipping clock skew adjustment",
+                        "invalid parent span IDs=05f0c8b4bf750107; skipping clock skew adjustment",
+                        "invalid parent span IDs=05f0c8b4bf750107; skipping clock skew adjustment",
+                        "invalid parent span IDs=05f0c8b4bf750107; skipping clock skew adjustment",
+                        "invalid parent span IDs=05f0c8b4bf750107; skipping clock skew adjustment",
+                        "invalid parent span IDs=05f0c8b4bf750107; skipping clock skew adjustment",
+                        "invalid parent span IDs=05f0c8b4bf750107; skipping clock skew adjustment",
+                        "invalid parent span IDs=05f0c8b4bf750107; skipping clock skew adjustment",
+                        "invalid parent span IDs=05f0c8b4bf750107; skipping clock skew adjustment",
+                        "invalid parent span IDs=05f0c8b4bf750107; skipping clock skew adjustment",
+                        "invalid parent span IDs=05f0c8b4bf750107; skipping clock skew adjustment",
+                        "invalid parent span IDs=05f0c8b4bf750107; skipping clock skew adjustment",
+                        "invalid parent span IDs=05f0c8b4bf750107; skipping clock skew adjustment",
+                        "invalid parent span IDs=05f0c8b4bf750107; skipping clock skew adjustment",
+                        "invalid parent span IDs=05f0c8b4bf750107; skipping clock skew adjustment",
+                        "invalid parent span IDs=05f0c8b4bf750107; skipping clock skew adjustment",
+                        "invalid parent span IDs=05f0c8b4bf750107; skipping clock skew adjustment",
+                        "invalid parent span IDs=05f0c8b4bf750107; skipping clock skew adjustment",
+                        "invalid parent span IDs=05f0c8b4bf750107; skipping clock skew adjustment"
+                    ]
+                },
+                {
+                    "traceID": "c26eed9fce02720d",
+                    "spanID": "51c4e56ff2130d8f",
+                    "flags": 1,
+                    "operationName": "MongoFindPosts",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "c26eed9fce02720d",
+                            "spanID": "55fb9b38a420d92f"
+                        }
+                    ],
+                    "startTime": 1599086886273946,
+                    "duration": 1251,
+                    "tags": [
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "c26eed9fce02720d",
+                    "spanID": "b7b1fe6f7d71620d",
+                    "flags": 1,
+                    "operationName": "MmcSetPost",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "c26eed9fce02720d",
+                            "spanID": "55fb9b38a420d92f"
+                        }
+                    ],
+                    "startTime": 1599086886275454,
+                    "duration": 981,
+                    "tags": [
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "c26eed9fce02720d",
+                    "spanID": "55fb9b38a420d92f",
+                    "flags": 1,
+                    "operationName": "ReadPosts",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "c26eed9fce02720d",
+                            "spanID": "c0582a9ef1a92428"
+                        }
+                    ],
+                    "startTime": 1599086886273282,
+                    "duration": 3407,
+                    "tags": [
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "c26eed9fce02720d",
+                    "spanID": "1ec6f06543679796",
+                    "flags": 1,
+                    "operationName": "MemcachedMget",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "c26eed9fce02720d",
+                            "spanID": "55fb9b38a420d92f"
+                        }
+                    ],
+                    "startTime": 1599086886273472,
+                    "duration": 134,
+                    "tags": [
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "c26eed9fce02720d",
+                    "spanID": "c5c16b5f798ba02e",
+                    "flags": 1,
+                    "operationName": "/api/user-timeline/read",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "c26eed9fce02720d",
+                            "spanID": "c26eed9fce02720d"
+                        }
+                    ],
+                    "startTime": 1599086886260134,
+                    "duration": 19337,
+                    "tags": [
+                        {
+                            "key": "component",
+                            "type": "string",
+                            "value": "nginx"
+                        },
+                        {
+                            "key": "nginx.worker_pid",
+                            "type": "string",
+                            "value": "20"
+                        },
+                        {
+                            "key": "peer.address",
+                            "type": "string",
+                            "value": "172.18.0.1:45076"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://0.0.0.0:8080/api/user-timeline/read?start=0\u0026stop=100"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "0.0.0.0:8080"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "http.status_line",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p3",
+                    "warnings": null
+                },
+                {
+                    "traceID": "c26eed9fce02720d",
+                    "spanID": "c26eed9fce02720d",
+                    "flags": 1,
+                    "operationName": "/api/user-timeline/read",
+                    "references": [],
+                    "startTime": 1599086886260000,
+                    "duration": 19456,
+                    "tags": [
+                        {
+                            "key": "sampler.type",
+                            "type": "string",
+                            "value": "const"
+                        },
+                        {
+                            "key": "sampler.param",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "http.status_line",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "component",
+                            "type": "string",
+                            "value": "nginx"
+                        },
+                        {
+                            "key": "nginx.worker_pid",
+                            "type": "string",
+                            "value": "20"
+                        },
+                        {
+                            "key": "peer.address",
+                            "type": "string",
+                            "value": "172.18.0.1:45076"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://0.0.0.0:8080/api/user-timeline/read?start=0\u0026stop=100"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "0.0.0.0:8080"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p3",
+                    "warnings": null
+                }
+            ],
+            "processes": {
+                "p1": {
+                    "serviceName": "user-timeline-service",
+                    "tags": [
+                        {
+                            "key": "hostname",
+                            "type": "string",
+                            "value": "user-timeline-service"
+                        },
+                        {
+                            "key": "ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "jaeger.version",
+                            "type": "string",
+                            "value": "C++-0.4.2"
+                        }
+                    ]
+                },
+                "p2": {
+                    "serviceName": "post-storage-service",
+                    "tags": [
+                        {
+                            "key": "hostname",
+                            "type": "string",
+                            "value": "post-storage-service"
+                        },
+                        {
+                            "key": "ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "jaeger.version",
+                            "type": "string",
+                            "value": "C++-0.4.2"
+                        }
+                    ]
+                },
+                "p3": {
+                    "serviceName": "nginx-web-server",
+                    "tags": [
+                        {
+                            "key": "hostname",
+                            "type": "string",
+                            "value": "nginx-thrift"
+                        },
+                        {
+                            "key": "ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "jaeger.version",
+                            "type": "string",
+                            "value": "C++-0.4.2"
+                        }
+                    ]
+                }
+            },
+            "warnings": null
+        }
+    ],
+    "total": 0,
+    "limit": 0,
+    "offset": 0,
+    "errors": null
+}

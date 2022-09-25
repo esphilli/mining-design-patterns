@@ -1,0 +1,2723 @@
+{
+    "data": [
+        {
+            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+            "spans": [
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "87b4342c02a86d11",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CurrencyService.Convert",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "85b1bba42a7c53f5"
+                        }
+                    ],
+                    "startTime": 1606775172740807,
+                    "duration": 2371,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "d231ae98261a56ab",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CurrencyService.GetSupportedCurrencies",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "85b1bba42a7c53f5"
+                        }
+                    ],
+                    "startTime": 1606775172693646,
+                    "duration": 6106,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "1fb2a08c22b85861",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.ProductCatalogService.ListProducts",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "85b1bba42a7c53f5"
+                        }
+                    ],
+                    "startTime": 1606775172699879,
+                    "duration": 11831,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "6c3293801e565b17",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CartService.GetCart",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "85b1bba42a7c53f5"
+                        }
+                    ],
+                    "startTime": 1606775172711875,
+                    "duration": 10016,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "b9b285741af45dcd",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CurrencyService.Convert",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "85b1bba42a7c53f5"
+                        }
+                    ],
+                    "startTime": 1606775172721946,
+                    "duration": 2659,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "0633786816926083",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CurrencyService.Convert",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "85b1bba42a7c53f5"
+                        }
+                    ],
+                    "startTime": 1606775172724654,
+                    "duration": 2182,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "53b36a5c12306339",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CurrencyService.Convert",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "85b1bba42a7c53f5"
+                        }
+                    ],
+                    "startTime": 1606775172726884,
+                    "duration": 2045,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "a0335d500ece65ef",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CurrencyService.Convert",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "85b1bba42a7c53f5"
+                        }
+                    ],
+                    "startTime": 1606775172728969,
+                    "duration": 4792,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "edb34f440a6c68a5",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CurrencyService.Convert",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "85b1bba42a7c53f5"
+                        }
+                    ],
+                    "startTime": 1606775172733821,
+                    "duration": 3143,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "3a344238060a6b5b",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CurrencyService.Convert",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "85b1bba42a7c53f5"
+                        }
+                    ],
+                    "startTime": 1606775172737021,
+                    "duration": 3728,
+                    "tags": [
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "89b7adb3d9d3872d",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CurrencyService.Convert",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "0836f1efedbd7a9f"
+                        }
+                    ],
+                    "startTime": 1606775172821641,
+                    "duration": 2385,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "d4342720fe4570c7",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CurrencyService.Convert",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "85b1bba42a7c53f5"
+                        }
+                    ],
+                    "startTime": 1606775172743230,
+                    "duration": 4998,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "21b51914fae3727d",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CurrencyService.Convert",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "85b1bba42a7c53f5"
+                        }
+                    ],
+                    "startTime": 1606775172748291,
+                    "duration": 4489,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "6e350c08f6817533",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.AdService.GetAds",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "85b1bba42a7c53f5"
+                        }
+                    ],
+                    "startTime": 1606775172752903,
+                    "duration": 821,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 2
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": "fault filter abort"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "bbb5fefbf11f78e9",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.ShippingService.GetQuote",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "85b1bba42a7c53f5"
+                        }
+                    ],
+                    "startTime": 1606775172753845,
+                    "duration": 2811,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 2
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": "Always return error"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "85b1bba42a7c53f5",
+                    "flags": 1,
+                    "operationName": "Recv./",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "f5f05b4d64eb2be5"
+                        }
+                    ],
+                    "startTime": 1606775172693384,
+                    "duration": 63403,
+                    "tags": [
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36"
+                        },
+                        {
+                            "key": "http.path",
+                            "type": "string",
+                            "value": "/"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": "\"OK\""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": [
+                        "invalid parent span IDs=f5f05b4d64eb2be5; skipping clock skew adjustment",
+                        "invalid parent span IDs=f5f05b4d64eb2be5; skipping clock skew adjustment",
+                        "invalid parent span IDs=f5f05b4d64eb2be5; skipping clock skew adjustment",
+                        "invalid parent span IDs=f5f05b4d64eb2be5; skipping clock skew adjustment",
+                        "invalid parent span IDs=f5f05b4d64eb2be5; skipping clock skew adjustment"
+                    ]
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "55b6e3e3e95b7d55",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CurrencyService.GetSupportedCurrencies",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "0836f1efedbd7a9f"
+                        }
+                    ],
+                    "startTime": 1606775172767746,
+                    "duration": 2905,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "a236d6d7e5f97f0b",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.ProductCatalogService.ListProducts",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "0836f1efedbd7a9f"
+                        }
+                    ],
+                    "startTime": 1606775172770702,
+                    "duration": 40563,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "efb6c8cbe19782c1",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CartService.GetCart",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "0836f1efedbd7a9f"
+                        }
+                    ],
+                    "startTime": 1606775172811313,
+                    "duration": 6531,
+                    "tags": [
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "3c37bbbfdd358577",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CurrencyService.Convert",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "0836f1efedbd7a9f"
+                        }
+                    ],
+                    "startTime": 1606775172817904,
+                    "duration": 3674,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "0836f1efedbd7a9f",
+                    "flags": 1,
+                    "operationName": "Recv./",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "3c5967a2b9a9c892"
+                        }
+                    ],
+                    "startTime": 1606775172767568,
+                    "duration": 87511,
+                    "tags": [
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36"
+                        },
+                        {
+                            "key": "http.path",
+                            "type": "string",
+                            "value": "/"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": "\"OK\""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": [
+                        "invalid parent span IDs=3c5967a2b9a9c892; skipping clock skew adjustment",
+                        "invalid parent span IDs=3c5967a2b9a9c892; skipping clock skew adjustment",
+                        "invalid parent span IDs=3c5967a2b9a9c892; skipping clock skew adjustment",
+                        "invalid parent span IDs=3c5967a2b9a9c892; skipping clock skew adjustment",
+                        "invalid parent span IDs=3c5967a2b9a9c892; skipping clock skew adjustment"
+                    ]
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "d637a0a7d5718ae3",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CurrencyService.Convert",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "0836f1efedbd7a9f"
+                        }
+                    ],
+                    "startTime": 1606775172824123,
+                    "duration": 3859,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "23b8929bd10f8d99",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CurrencyService.Convert",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "0836f1efedbd7a9f"
+                        }
+                    ],
+                    "startTime": 1606775172828110,
+                    "duration": 5050,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "7038858fcdad8f4f",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CurrencyService.Convert",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "0836f1efedbd7a9f"
+                        }
+                    ],
+                    "startTime": 1606775172833305,
+                    "duration": 2802,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "bdb87783c94b9205",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CurrencyService.Convert",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "0836f1efedbd7a9f"
+                        }
+                    ],
+                    "startTime": 1606775172836183,
+                    "duration": 2597,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "0a396a77c5e994bb",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CurrencyService.Convert",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "0836f1efedbd7a9f"
+                        }
+                    ],
+                    "startTime": 1606775172838830,
+                    "duration": 3078,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "57b95c6bc1879771",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CurrencyService.Convert",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "0836f1efedbd7a9f"
+                        }
+                    ],
+                    "startTime": 1606775172841965,
+                    "duration": 2444,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "a4394f5fbd259a27",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CurrencyService.Convert",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "0836f1efedbd7a9f"
+                        }
+                    ],
+                    "startTime": 1606775172844465,
+                    "duration": 4822,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "f1b94153b9c39cdd",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.AdService.GetAds",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "0836f1efedbd7a9f"
+                        }
+                    ],
+                    "startTime": 1606775172849425,
+                    "duration": 925,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 2
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": "fault filter abort"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "3e3a3447b5619f93",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.ShippingService.GetQuote",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "0836f1efedbd7a9f"
+                        }
+                    ],
+                    "startTime": 1606775172850540,
+                    "duration": 4295,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 2
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": "Always return error"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "8dbd9fc2882bbc65",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CurrencyService.Convert",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "8bba263bb1ffa149"
+                        }
+                    ],
+                    "startTime": 1606775172943400,
+                    "duration": 2770,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "d83a192fad9da4ff",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CurrencyService.GetSupportedCurrencies",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "8bba263bb1ffa149"
+                        }
+                    ],
+                    "startTime": 1606775172879395,
+                    "duration": 3047,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "25bb0b23a93ba7b5",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.ProductCatalogService.ListProducts",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "8bba263bb1ffa149"
+                        }
+                    ],
+                    "startTime": 1606775172882587,
+                    "duration": 28779,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "723bfe16a5d9a96b",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CartService.GetCart",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "8bba263bb1ffa149"
+                        }
+                    ],
+                    "startTime": 1606775172911437,
+                    "duration": 4552,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "bfbbf00aa177ac21",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CurrencyService.Convert",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "8bba263bb1ffa149"
+                        }
+                    ],
+                    "startTime": 1606775172916117,
+                    "duration": 3711,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "0c3ce3fe9c15afd7",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CurrencyService.Convert",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "8bba263bb1ffa149"
+                        }
+                    ],
+                    "startTime": 1606775172919914,
+                    "duration": 4604,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "59bcd5f298b3b18d",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CurrencyService.Convert",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "8bba263bb1ffa149"
+                        }
+                    ],
+                    "startTime": 1606775172924611,
+                    "duration": 3365,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "a63cc8e69451b443",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CurrencyService.Convert",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "8bba263bb1ffa149"
+                        }
+                    ],
+                    "startTime": 1606775172928089,
+                    "duration": 3579,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "f3bcbada90efb6f9",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CurrencyService.Convert",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "8bba263bb1ffa149"
+                        }
+                    ],
+                    "startTime": 1606775172931736,
+                    "duration": 7631,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "403dadce8c8db9af",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CurrencyService.Convert",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "8bba263bb1ffa149"
+                        }
+                    ],
+                    "startTime": 1606775172939466,
+                    "duration": 3882,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "5bbba8dbaf95d5cb",
+                    "flags": 1,
+                    "operationName": "Recv.hipstershop.ProductCatalogService.ListProducts",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "25bb0b23a93ba7b5"
+                        }
+                    ],
+                    "startTime": 1606775172884620,
+                    "duration": 23912,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": false
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": false
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "f805553502688b26",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.AdService.GetAds",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "d71e3953c8581d9a"
+                        }
+                    ],
+                    "startTime": 1606775172703477,
+                    "duration": 5306,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "d71e3953c8581d9a",
+                    "flags": 1,
+                    "operationName": "Recv.hipstershop.ProductCatalogService.ListProducts",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "1fb2a08c22b85861"
+                        }
+                    ],
+                    "startTime": 1606775172703298,
+                    "duration": 6186,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": false
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": false
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "3ad48cf97586673f",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.AdService.GetAds",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "19ed70173c77f9b2"
+                        }
+                    ],
+                    "startTime": 1606775172772460,
+                    "duration": 35384,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "19ed70173c77f9b2",
+                    "flags": 1,
+                    "operationName": "Recv.hipstershop.ProductCatalogService.ListProducts",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "a236d6d7e5f97f0b"
+                        }
+                    ],
+                    "startTime": 1606775172772193,
+                    "duration": 36546,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": false
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": false
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "7ca2c4bde9a44358",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.AdService.GetAds",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "5bbba8dbaf95d5cb"
+                        }
+                    ],
+                    "startTime": 1606775172884827,
+                    "duration": 23069,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "650a7f152bcb623a",
+                    "flags": 1,
+                    "operationName": "Recv.hipstershop.ShippingService.GetQuote",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "bbb5fefbf11f78e9"
+                        }
+                    ],
+                    "startTime": 1606775172755023,
+                    "duration": 631,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": false
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": false
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 2
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": "Always return error"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p3",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "8a4304bd0c951174",
+                    "flags": 1,
+                    "operationName": "Recv.hipstershop.ShippingService.GetQuote",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "3e3a3447b5619f93"
+                        }
+                    ],
+                    "startTime": 1606775172852176,
+                    "duration": 1271,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": false
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": false
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 2
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": "Always return error"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p3",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "af7c8964ee5ec0ad",
+                    "flags": 1,
+                    "operationName": "Recv.hipstershop.ShippingService.GetQuote",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "c1be699278a3c63d"
+                        }
+                    ],
+                    "startTime": 1606775172960797,
+                    "duration": 223,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": false
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": false
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 2
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": "Always return error"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p3",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "8bba263bb1ffa149",
+                    "flags": 1,
+                    "operationName": "Recv./",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "bbf4b8fea4fa45ce"
+                        }
+                    ],
+                    "startTime": 1606775172879202,
+                    "duration": 84169,
+                    "tags": [
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36"
+                        },
+                        {
+                            "key": "http.path",
+                            "type": "string",
+                            "value": "/"
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": "\"OK\""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": [
+                        "invalid parent span IDs=bbf4b8fea4fa45ce; skipping clock skew adjustment",
+                        "invalid parent span IDs=bbf4b8fea4fa45ce; skipping clock skew adjustment",
+                        "invalid parent span IDs=bbf4b8fea4fa45ce; skipping clock skew adjustment",
+                        "invalid parent span IDs=bbf4b8fea4fa45ce; skipping clock skew adjustment",
+                        "invalid parent span IDs=bbf4b8fea4fa45ce; skipping clock skew adjustment"
+                    ]
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "da3d92b684c9be1b",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CurrencyService.Convert",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "8bba263bb1ffa149"
+                        }
+                    ],
+                    "startTime": 1606775172946224,
+                    "duration": 6490,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "27be84aa8067c1d1",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.CurrencyService.Convert",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "8bba263bb1ffa149"
+                        }
+                    ],
+                    "startTime": 1606775172952804,
+                    "duration": 4546,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 0
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": ""
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "743e779e7c05c487",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.AdService.GetAds",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "8bba263bb1ffa149"
+                        }
+                    ],
+                    "startTime": 1606775172957489,
+                    "duration": 877,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 2
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": "fault filter abort"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "c1be699278a3c63d",
+                    "flags": 1,
+                    "operationName": "Sent.hipstershop.ShippingService.GetQuote",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "8bba263bb1ffa149"
+                        }
+                    ],
+                    "startTime": 1606775172958492,
+                    "duration": 4683,
+                    "tags": [
+                        {
+                            "key": "Client",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "FailFast",
+                            "type": "bool",
+                            "value": true
+                        },
+                        {
+                            "key": "status.code",
+                            "type": "int64",
+                            "value": 2
+                        },
+                        {
+                            "key": "status.message",
+                            "type": "string",
+                            "value": "Always return error"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "53627aecf272181d",
+                    "flags": 1,
+                    "operationName": "Retrieve Ads",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "114c746fdb57946d"
+                        }
+                    ],
+                    "startTime": 1606775172706392,
+                    "duration": 729,
+                    "tags": [
+                        {
+                            "key": "method",
+                            "type": "string",
+                            "value": "getAds"
+                        },
+                        {
+                            "key": "ip",
+                            "type": "string",
+                            "value": "10.1.3.206"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [
+                        {
+                            "timestamp": 1606775172706677,
+                            "fields": [
+                                {
+                                    "key": "description",
+                                    "type": "string",
+                                    "value": "No Context provided. Constructing random Ads."
+                                }
+                            ]
+                        }
+                    ],
+                    "processID": "p4",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "114c746fdb57946d",
+                    "flags": 1,
+                    "operationName": "Recv.hipstershop.AdService.GetAds",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "f805553502688b26"
+                        }
+                    ],
+                    "startTime": 1606775172706007,
+                    "duration": 1971,
+                    "tags": [
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p4",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "3ce109b285619805",
+                    "flags": 1,
+                    "operationName": "Retrieve Ads",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "7d9fca63d2c03d1d"
+                        }
+                    ],
+                    "startTime": 1606775172803677,
+                    "duration": 703,
+                    "tags": [
+                        {
+                            "key": "method",
+                            "type": "string",
+                            "value": "getAds"
+                        },
+                        {
+                            "key": "ip",
+                            "type": "string",
+                            "value": "10.1.3.206"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [
+                        {
+                            "timestamp": 1606775172803993,
+                            "fields": [
+                                {
+                                    "key": "description",
+                                    "type": "string",
+                                    "value": "No Context provided. Constructing random Ads."
+                                }
+                            ]
+                        }
+                    ],
+                    "processID": "p4",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "7d9fca63d2c03d1d",
+                    "flags": 1,
+                    "operationName": "Recv.hipstershop.AdService.GetAds",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "3ad48cf97586673f"
+                        }
+                    ],
+                    "startTime": 1606775172803005,
+                    "duration": 2486,
+                    "tags": [
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p4",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "57212ef44046c696",
+                    "flags": 1,
+                    "operationName": "Retrieve Ads",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "dcd04c1591e5186f"
+                        }
+                    ],
+                    "startTime": 1606775172903655,
+                    "duration": 902,
+                    "tags": [
+                        {
+                            "key": "method",
+                            "type": "string",
+                            "value": "getAds"
+                        },
+                        {
+                            "key": "ip",
+                            "type": "string",
+                            "value": "10.1.3.206"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [
+                        {
+                            "timestamp": 1606775172904082,
+                            "fields": [
+                                {
+                                    "key": "description",
+                                    "type": "string",
+                                    "value": "No Context provided. Constructing random Ads."
+                                }
+                            ]
+                        }
+                    ],
+                    "processID": "p4",
+                    "warnings": null
+                },
+                {
+                    "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                    "spanID": "dcd04c1591e5186f",
+                    "flags": 1,
+                    "operationName": "Recv.hipstershop.AdService.GetAds",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "f7c6e585c9ceb0e7c1ca1d3eb0ae2c16",
+                            "spanID": "7ca2c4bde9a44358"
+                        }
+                    ],
+                    "startTime": 1606775172903007,
+                    "duration": 2898,
+                    "tags": [
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p4",
+                    "warnings": null
+                }
+            ],
+            "processes": {
+                "p1": {
+                    "serviceName": "frontend",
+                    "tags": []
+                },
+                "p2": {
+                    "serviceName": "productcatalogservice",
+                    "tags": []
+                },
+                "p3": {
+                    "serviceName": "shippingservice",
+                    "tags": []
+                },
+                "p4": {
+                    "serviceName": "adservice",
+                    "tags": []
+                }
+            },
+            "warnings": null
+        }
+    ],
+    "total": 0,
+    "limit": 0,
+    "offset": 0,
+    "errors": null
+}
