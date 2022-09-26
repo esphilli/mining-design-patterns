@@ -1,8 +1,8 @@
-create table edge(
+create table edge (
                     src varchar2[100],
                     dst varchar2[100]
                 );
-                create table nodelabels(
+                create table nodelabels (
                     node varchar2[100],
                     label varchar2[100],
                     value varchar2[255]
@@ -22,18 +22,18 @@ create table edge(
                     select n1.label as f_lbl, n1.value as f_val, n2.label as t_lbl, n2.value as t_val
                         from reachable p, nodelabels n1, nodelabels n2
                             where p.x = n1.node and p.y = n2.node;
-                insert into edge values ('-5840268379640729615', '1246057213747347301');
-insert into edge values ('7050807913288684059', '-5840268379640729615');
-insert into nodelabels values ('-5840268379640729615', 'operationName', 'HTTP GET');
-insert into nodelabels values ('-5840268379640729615', 'startTime', '1');
-insert into nodelabels values ('-5840268379640729615', 'status.code', '0');
-insert into nodelabels values ('-5840268379640729615', 'serviceName', 'api-gateway');
-insert into nodelabels values ('7050807913288684059', 'operationName', '/review/hotels/<hotel_id>');
-insert into nodelabels values ('7050807913288684059', 'startTime', '0');
-insert into nodelabels values ('7050807913288684059', 'status.code', '0');
-insert into nodelabels values ('7050807913288684059', 'serviceName', 'api-gateway');
-insert into nodelabels values ('1246057213747347301', 'operationName', '/hotels/<hotel_id>');
-insert into nodelabels values ('1246057213747347301', 'startTime', '2');
-insert into nodelabels values ('1246057213747347301', 'status.code', '0');
-insert into nodelabels values ('1246057213747347301', 'serviceName', 'review-ml');
+                insert into edge values('-5629999867111549481', '-8127778371771564658');
+insert into edge values('1871803154431265915', '-5629999867111549481');
+insert into nodelabels values ('1871803154431265915', 'operationName', '/review/hotels/<hotel_id>');
+insert into nodelabels values ('1871803154431265915', 'startTime', '0');
+insert into nodelabels values ('1871803154431265915', 'status.code', '0');
+insert into nodelabels values ('1871803154431265915', 'serviceName', 'api-gateway');
+insert into nodelabels values ('-8127778371771564658', 'operationName', '/hotels/<hotel_id>');
+insert into nodelabels values ('-8127778371771564658', 'startTime', '2');
+insert into nodelabels values ('-8127778371771564658', 'status.code', '0');
+insert into nodelabels values ('-8127778371771564658', 'serviceName', 'review-ml');
+insert into nodelabels values ('-5629999867111549481', 'operationName', 'HTTP GET');
+insert into nodelabels values ('-5629999867111549481', 'startTime', '1');
+insert into nodelabels values ('-5629999867111549481', 'status.code', '0');
+insert into nodelabels values ('-5629999867111549481', 'serviceName', 'api-gateway');
 

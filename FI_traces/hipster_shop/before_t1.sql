@@ -1,8 +1,8 @@
-create table edge(
+create table edge (
                     src varchar2[100],
                     dst varchar2[100]
                 );
-                create table nodelabels(
+                create table nodelabels (
                     node varchar2[100],
                     label varchar2[100],
                     value varchar2[255]
@@ -22,63 +22,63 @@ create table edge(
                     select n1.label as f_lbl, n1.value as f_val, n2.label as t_lbl, n2.value as t_val
                         from reachable p, nodelabels n1, nodelabels n2
                             where p.x = n1.node and p.y = n2.node;
-                insert into edge values ('862633951172052421', '7287309515254568786');
-insert into edge values ('-7205502771032195512', '6644431907171651013');
-insert into edge values ('7287309515254568786', '-7205502771032195512');
-insert into edge values ('7815357640798382301', '2981348270474614289');
-insert into edge values ('8164589395093084908', '7815357640798382301');
-insert into edge values ('6644431907171651013', '7705793861004551886');
-insert into edge values ('862633951172052421', '3381655088831122847');
-insert into edge values ('862633951172052421', '8164589395093084908');
-insert into edge values ('862633951172052421', '-8249404816665574733');
-insert into edge values ('7705793861004551886', '3195251919016601980');
-insert into edge values ('862633951172052421', '-7257880500425606641');
-insert into nodelabels values ('6644431907171651013', 'operationName', 'Sent.hipstershop.AdService.GetAds');
-insert into nodelabels values ('6644431907171651013', 'startTime', '4');
-insert into nodelabels values ('6644431907171651013', 'status.code', '0');
-insert into nodelabels values ('6644431907171651013', 'serviceName', 'productcatalogservice');
-insert into nodelabels values ('862633951172052421', 'operationName', 'Recv./');
-insert into nodelabels values ('862633951172052421', 'startTime', '0');
-insert into nodelabels values ('862633951172052421', 'status.code', '0');
-insert into nodelabels values ('862633951172052421', 'serviceName', 'frontend');
-insert into nodelabels values ('-7205502771032195512', 'operationName', 'Recv.hipstershop.ProductCatalogService.ListProducts');
-insert into nodelabels values ('-7205502771032195512', 'startTime', '3');
-insert into nodelabels values ('-7205502771032195512', 'status.code', '0');
-insert into nodelabels values ('-7205502771032195512', 'serviceName', 'productcatalogservice');
-insert into nodelabels values ('8164589395093084908', 'operationName', 'Sent.hipstershop.AdService.GetAds');
-insert into nodelabels values ('8164589395093084908', 'startTime', '9');
-insert into nodelabels values ('8164589395093084908', 'status.code', '0');
-insert into nodelabels values ('8164589395093084908', 'serviceName', 'frontend');
-insert into nodelabels values ('7705793861004551886', 'operationName', 'Recv.hipstershop.AdService.GetAds');
-insert into nodelabels values ('7705793861004551886', 'startTime', '5');
-insert into nodelabels values ('7705793861004551886', 'status.code', '-1');
-insert into nodelabels values ('7705793861004551886', 'serviceName', 'adservice');
-insert into nodelabels values ('-7257880500425606641', 'operationName', 'Sent.hipstershop.CurrencyService.Convert');
-insert into nodelabels values ('-7257880500425606641', 'startTime', '8');
-insert into nodelabels values ('-7257880500425606641', 'status.code', '0');
-insert into nodelabels values ('-7257880500425606641', 'serviceName', 'frontend');
-insert into nodelabels values ('2981348270474614289', 'operationName', 'Retrieve Ads');
-insert into nodelabels values ('2981348270474614289', 'startTime', '11');
-insert into nodelabels values ('2981348270474614289', 'status.code', '-1');
-insert into nodelabels values ('2981348270474614289', 'serviceName', 'adservice');
-insert into nodelabels values ('7287309515254568786', 'operationName', 'Sent.hipstershop.ProductCatalogService.ListProducts');
-insert into nodelabels values ('7287309515254568786', 'startTime', '2');
-insert into nodelabels values ('7287309515254568786', 'status.code', '0');
-insert into nodelabels values ('7287309515254568786', 'serviceName', 'frontend');
-insert into nodelabels values ('-8249404816665574733', 'operationName', 'Sent.hipstershop.CartService.GetCart');
-insert into nodelabels values ('-8249404816665574733', 'startTime', '7');
-insert into nodelabels values ('-8249404816665574733', 'status.code', '0');
-insert into nodelabels values ('-8249404816665574733', 'serviceName', 'frontend');
-insert into nodelabels values ('3195251919016601980', 'operationName', 'Retrieve Ads');
-insert into nodelabels values ('3195251919016601980', 'startTime', '6');
-insert into nodelabels values ('3195251919016601980', 'status.code', '-1');
-insert into nodelabels values ('3195251919016601980', 'serviceName', 'adservice');
-insert into nodelabels values ('7815357640798382301', 'operationName', 'Recv.hipstershop.AdService.GetAds');
-insert into nodelabels values ('7815357640798382301', 'startTime', '10');
-insert into nodelabels values ('7815357640798382301', 'status.code', '-1');
-insert into nodelabels values ('7815357640798382301', 'serviceName', 'adservice');
-insert into nodelabels values ('3381655088831122847', 'operationName', 'Sent.hipstershop.CurrencyService.GetSupportedCurrencies');
-insert into nodelabels values ('3381655088831122847', 'startTime', '1');
-insert into nodelabels values ('3381655088831122847', 'status.code', '0');
-insert into nodelabels values ('3381655088831122847', 'serviceName', 'frontend');
+                insert into edge values('4191952244135300146', '-4825452554878529172');
+insert into edge values('5084519566373682531', '-7355276878380013507');
+insert into edge values('5084519566373682531', '-7529865371756113686');
+insert into edge values('-6987149694351803946', '535814566679054450');
+insert into edge values('8651010703219895888', '4191952244135300146');
+insert into edge values('-7529865371756113686', '-1044988392628474174');
+insert into edge values('-1044988392628474174', '8651010703219895888');
+insert into edge values('5084519566373682531', '2174918059173145461');
+insert into edge values('5084519566373682531', '-1858757700449363774');
+insert into edge values('5084519566373682531', '-9163065401982316350');
+insert into edge values('2174918059173145461', '-6987149694351803946');
+insert into nodelabels values ('-1044988392628474174', 'operationName', 'Recv.hipstershop.ProductCatalogService.ListProducts');
+insert into nodelabels values ('-1044988392628474174', 'startTime', '3');
+insert into nodelabels values ('-1044988392628474174', 'status.code', '0');
+insert into nodelabels values ('-1044988392628474174', 'serviceName', 'productcatalogservice');
+insert into nodelabels values ('5084519566373682531', 'operationName', 'Recv./');
+insert into nodelabels values ('5084519566373682531', 'startTime', '0');
+insert into nodelabels values ('5084519566373682531', 'status.code', '0');
+insert into nodelabels values ('5084519566373682531', 'serviceName', 'frontend');
+insert into nodelabels values ('-1858757700449363774', 'operationName', 'Sent.hipstershop.CurrencyService.Convert');
+insert into nodelabels values ('-1858757700449363774', 'startTime', '8');
+insert into nodelabels values ('-1858757700449363774', 'status.code', '0');
+insert into nodelabels values ('-1858757700449363774', 'serviceName', 'frontend');
+insert into nodelabels values ('-9163065401982316350', 'operationName', 'Sent.hipstershop.CartService.GetCart');
+insert into nodelabels values ('-9163065401982316350', 'startTime', '7');
+insert into nodelabels values ('-9163065401982316350', 'status.code', '0');
+insert into nodelabels values ('-9163065401982316350', 'serviceName', 'frontend');
+insert into nodelabels values ('-7529865371756113686', 'operationName', 'Sent.hipstershop.ProductCatalogService.ListProducts');
+insert into nodelabels values ('-7529865371756113686', 'startTime', '2');
+insert into nodelabels values ('-7529865371756113686', 'status.code', '0');
+insert into nodelabels values ('-7529865371756113686', 'serviceName', 'frontend');
+insert into nodelabels values ('-4825452554878529172', 'operationName', 'Retrieve Ads');
+insert into nodelabels values ('-4825452554878529172', 'startTime', '6');
+insert into nodelabels values ('-4825452554878529172', 'status.code', '-1');
+insert into nodelabels values ('-4825452554878529172', 'serviceName', 'adservice');
+insert into nodelabels values ('8651010703219895888', 'operationName', 'Sent.hipstershop.AdService.GetAds');
+insert into nodelabels values ('8651010703219895888', 'startTime', '4');
+insert into nodelabels values ('8651010703219895888', 'status.code', '0');
+insert into nodelabels values ('8651010703219895888', 'serviceName', 'productcatalogservice');
+insert into nodelabels values ('4191952244135300146', 'operationName', 'Recv.hipstershop.AdService.GetAds');
+insert into nodelabels values ('4191952244135300146', 'startTime', '5');
+insert into nodelabels values ('4191952244135300146', 'status.code', '-1');
+insert into nodelabels values ('4191952244135300146', 'serviceName', 'adservice');
+insert into nodelabels values ('535814566679054450', 'operationName', 'Retrieve Ads');
+insert into nodelabels values ('535814566679054450', 'startTime', '11');
+insert into nodelabels values ('535814566679054450', 'status.code', '-1');
+insert into nodelabels values ('535814566679054450', 'serviceName', 'adservice');
+insert into nodelabels values ('2174918059173145461', 'operationName', 'Sent.hipstershop.AdService.GetAds');
+insert into nodelabels values ('2174918059173145461', 'startTime', '9');
+insert into nodelabels values ('2174918059173145461', 'status.code', '0');
+insert into nodelabels values ('2174918059173145461', 'serviceName', 'frontend');
+insert into nodelabels values ('-6987149694351803946', 'operationName', 'Recv.hipstershop.AdService.GetAds');
+insert into nodelabels values ('-6987149694351803946', 'startTime', '10');
+insert into nodelabels values ('-6987149694351803946', 'status.code', '-1');
+insert into nodelabels values ('-6987149694351803946', 'serviceName', 'adservice');
+insert into nodelabels values ('-7355276878380013507', 'operationName', 'Sent.hipstershop.CurrencyService.GetSupportedCurrencies');
+insert into nodelabels values ('-7355276878380013507', 'startTime', '1');
+insert into nodelabels values ('-7355276878380013507', 'status.code', '0');
+insert into nodelabels values ('-7355276878380013507', 'serviceName', 'frontend');
 

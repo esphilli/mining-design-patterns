@@ -1,7 +1,6 @@
 from abstract_graphs import DAG, identity, index_of, simple_name
 from jaeger_parser import JaegerParser
 import os, subprocess, sqlite3
-import re
 
 traces = {
         'cache_effects': ['trace_1', 'trace_2', 'trace_3', 'trace_4', 'trace_5',\
@@ -13,7 +12,7 @@ traces = {
 metaquery = """select * from calls"""
 
 # execute commands via opening pipe to sqlite3 shell & loop over all traces
-def metaquery_all(traces):
+def cache_metaquery_all(traces):
     result = {}
     for fault in traces.keys():
         for trace in traces[fault]:
@@ -40,9 +39,9 @@ def metaquery_all(traces):
     #print(result)
     return result
 
-def process(traces, outfile):
+def cache_process(traces, outfile):
     # execute metaquery
-    result = metaquery_all(traces)
+    result = cache_metaquery_all(traces)
     # convert result into list of dicts
     reslst = []
     for g in result.keys():
@@ -65,17 +64,17 @@ def process(traces, outfile):
     );"""
     f = open(outfile,'a')
     f.write(table+'\n')
-    for d in reslst:	
+    for d in reslst:    
         cols = ', '.join("'"+str(x).replace('/','_')+"'" for x in d.keys())
         vals = ', '.join("'"+str(x).replace('/','_')+"'" for x in d.values())
-        ins = "INSERT INTO %s (%s) VALUES (%s);" %('result',cols,vals)	
+        ins = "INSERT INTO %s (%s) VALUES (%s);" %('result',cols,vals)  
         f = open(outfile,'a')
         f.write(ins+'\n')
 
-    f.close()	
+    f.close()   
 
 # takes as input file of sql inserts
-def query_all(sql_file):
+def cache_query_all(sql_file):
     # input sql insert file into sqlite & execute pass 1
     t = '.read ' + sql_file
     p1 = """select * from candidates"""
@@ -88,6 +87,6 @@ def query_all(sql_file):
         print(f)
 
 if __name__=='__main__':
-    process(traces,'result.sql')
-    query_all('result.sql')
+    cache_process(traces,'result.sql')
+    cache_query_all('result.sql')
     os.system('rm result.sql')

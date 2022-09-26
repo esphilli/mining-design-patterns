@@ -15,16 +15,13 @@ traces = {
         'filibuster_traces/netflix/all_up': ['trace1', 'trace2', 'trace3'],
         #'filibuster_traces/netflix/bkmarks_error': ['trace1', 'trace2', 'trace3'],
         'filibuster_traces/netflix/user_recs_error': ['trace1', 'trace2', 'trace3']
-        #'cache_effects': ['trace_1', 'trace_2', 'trace_3', 'trace_4', 'trace_5',\
-        #        'trace_6', 'trace_7', 'trace_8', 'trace_8', 'trace_9', \
-        #        'trace_10', 'trace_11', 'trace_12', 'trace_13', 'trace_14']
         }
 
 # get list of calls
 metaquery = """select * from calls"""
 
 # execute commands via opening pipe to sqlite3 shell & loop over all traces
-def metaquery_all(traces):
+def f1_metaquery_all(traces):
     result = {}
     for fault in traces.keys():
         for trace in traces[fault]:
@@ -51,9 +48,9 @@ def metaquery_all(traces):
     #print(result)
     return result
 
-def process(traces, outfile):
+def f1_process(traces, outfile):
     # execute metaquery
-    result = metaquery_all(traces)
+    result = f1_metaquery_all(traces)
     # convert result into list of dicts
     reslst = []
     for g in result.keys():
@@ -76,17 +73,17 @@ def process(traces, outfile):
     );"""
     f = open(outfile,'a')
     f.write(table+'\n')
-    for d in reslst:	
+    for d in reslst:    
         cols = ', '.join("'"+str(x).replace('/','_')+"'" for x in d.keys())
         vals = ', '.join("'"+str(x).replace('/','_')+"'" for x in d.values())
-        ins = "INSERT INTO %s (%s) VALUES (%s);" %('result',cols,vals)	
+        ins = "INSERT INTO %s (%s) VALUES (%s);" %('result',cols,vals)  
         f = open(outfile,'a')
         f.write(ins+'\n')
 
-    f.close()	
+    f.close()   
 
 # takes as input file of sql inserts
-def query_all(sql_file):
+def f1_query_all(sql_file):
     # input sql insert file into sqlite & execute pass 1
     t = '.read ' + sql_file
     p1 = """select * from badgraphs"""
@@ -133,6 +130,6 @@ def query_all(sql_file):
         print(r)
 
 if __name__=='__main__':
-    process(traces,'result.sql')
-    query_all('result.sql')
+    f1_process(traces,'result.sql')
+    f1_query_all('result.sql')
     os.system('rm result.sql')
