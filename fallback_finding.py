@@ -119,15 +119,7 @@ def f1_query_all(sql_file):
                     fallbacks = (output[0].decode('utf-8')).split('\\n')
                     for f in fallbacks:
                         print(f)
-    
-    p = """select * from retries"""
-    command = 'sqlite3 :memory: "' + t + '" ".read fallbacks_single.sql" "' + p + '"'
-    r = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
-    output = r.communicate()
-    retries = (output[0].decode('utf-8')).split('\\n')
-    print("Retries")
-    for r in retries:
-        print(r)
+                        
 
 if __name__=='__main__':
     f1_process(traces,'result.sql')
